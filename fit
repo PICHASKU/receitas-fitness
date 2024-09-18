@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Fitness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #28a745;
+        }
+        .recipe-card {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-card h3 {
+            margin: 0;
+        }
+        .nutrition-info {
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #28a745;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Receitas Fitness</h1>
+        <p>Alimente o seu corpo com saúde e energia!</p>
+    </header>
+
+    <nav>
+        <a href="#cafe-da-manha">Café da Manhã</a>
+        <a href="#pre-treino">Pré-Treino</a>
+        <a href="#pos-treino">Pós-Treino</a>
+        <a href="#snacks">Snacks</a>
+        <a href="#jantares-leves">Jantares Leves</a>
+    </nav>
+
+    <div class="container">
+        <!-- Exemplo de uma Receita -->
+        <section id="cafe-da-manha">
+            <h2>Café da Manhã</h2>
+
+            <div class="recipe-card">
+                <h3>Panquecas de Aveia</h3>
+                <p>Uma opção saudável e cheia de energia para começar o dia!</p>
+                <ul>
+                    <li>1/2 xícara de aveia</li>
+                    <li>1 banana</li>
+                    <li>2 ovos</li>
+                    <li>Canela a gosto</li>
+                </ul>
+
+                <div class="nutrition-info">
+                    <h4>Informação Nutricional (por porção):</h4>
+                    <p>Calorias: 250 kcal | Proteínas: 12g | Carboidratos: 30g | Gorduras: 8g</p>
+                    <p>Micronutrientes: Potássio, Magnésio, Vitaminas do Complexo B</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outras Secções de Receitas -->
+        <section id="pre-treino">
+            <h2>Pré-Treino</h2>
+            <div class="recipe-card">
+                <h3>Smoothie Energético</h3>
+                <!-- Conteúdo da Receita -->
+            </div>
+        </section>
+
+        <section id="pos-treino">
+            <h2>Pós-Treino</h2>
+            <div class="recipe-card">
+                <h3>Shake de Proteína</h3>
+                <!-- Conteúdo da Receita -->
+            </div>
+        </section>
+
+        <section id="snacks">
+            <h2>Snacks</h2>
+            <div class="recipe-card">
+                <h3>Bolinhas de Proteína</h3>
+                <!-- Conteúdo da Receita -->
+            </div>
+        </section>
+
+        <section id="jantares-leves">
+            <h2>Jantares Leves</h2>
+            <div class="recipe-card">
+                <h3>Salada de Frango</h3>
+                <!-- Conteúdo da Receita -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Receitas Fitness © 2024 | Alimente-se bem, viva melhor!</p>
+    </footer>
+</body>
+</html>
